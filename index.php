@@ -104,11 +104,11 @@ if($_POST['submit']){
 
             <?php
             if($_POST['submit']){
-                echo "<br/>Kopier nedenstående og indsæt signaturen i din mailklient<br/>";
+                echo "<br/>Copy and paste the output below in your mailclient of choice:<br/>";
                 echo "<div id='copybox'";
                 echo $infoToPrint;
                 echo "</div>";
-                echo "<br/>Eller kopier koden:<br/>";
+                echo "<br/>Alternatively copy the code below: <br/>";
                 echo "<div id='copybox'>";
                 echo "<xmp>".$infoToPrint."</xmp>";
                 echo "</div>";

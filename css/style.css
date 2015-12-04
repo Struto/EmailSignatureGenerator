@@ -114,9 +114,6 @@ header p {
     box-sizing : border-box;
 }
 
-
-
-
 #info input[type="submit"] {
     background-color: #dd4e0c;
     border: 1px solid white;
@@ -135,12 +132,6 @@ header p {
     background-color: #b33d07;
 }
 
-
-
-
-
-
-
 #copybox {
     display: inline-block;
     padding: 50px 100px;
@@ -148,3 +139,12 @@ header p {
     width: 740px;
 }
 
+footer {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
