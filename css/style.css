@@ -80,7 +80,7 @@ header p {
     border-radius: 4px;
     color: #fff;
     display: block;
-    margin: 80px auto 40px;
+    margin: 80px auto;
     max-width: 650px;
     padding: 20px;
     width: 100%;
@@ -134,9 +134,15 @@ header p {
 
 #copybox {
     display: inline-block;
-    padding: 50px 100px;
+    padding: 20px;
     border: 1px solid #aaa;
     width: 740px;
+}
+
+#copybox xmp { color: red;
+
+
+    word-break: ;
 }
 
 footer {
